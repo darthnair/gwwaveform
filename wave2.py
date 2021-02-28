@@ -9,12 +9,16 @@ st.title('GW Waveform Generator ∿')
 
 st.markdown(""" ------------------------------------------------------------------------- """)
 
+st.markdown(""" Check left panel to change input parameters """)
+
+st.markdown(""" ------------------------------------------------------------------------- """)
+
 st.markdown("""∿ Visit the GWOSC website to try out other GW data analysis on your own: https://www.gw-openscience.org/tutorials/ """)
 st.markdown("""∿ The implementation of this model can be studied in detail over here: https://arxiv.org/pdf/1611.03703.pdf""")
 st.markdown("""∿ You can learn more about PyCBC and Time Domain waveforms over here: http://pycbc.org/pycbc/latest/html/waveform.html""")
 
 
-st.sidebar.header("Enter waveform parameters below")
+st.sidebar.header("Enter input parameters below")
 
 distancev = []
 
