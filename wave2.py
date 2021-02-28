@@ -8,8 +8,8 @@ st.set_page_config(page_icon="〰", page_title="GW Waveform Generator")
 st.markdown("""
 <style>
 body {
-    color: #fff;
-    background-color: #272626;
+    color: #272626;
+    background-color: #ffffff;
 
     }
 }
