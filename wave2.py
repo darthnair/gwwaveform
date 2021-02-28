@@ -5,11 +5,22 @@ import pylab
 
 st.set_page_config(page_icon="〰", page_title="GW Waveform Generator")
 
+st.markdown("""
+<style>
+body {
+    color: #fff;
+    background-color: #272626;
+
+    }
+}
+</style>
+    """, unsafe_allow_html=True)
+
 st.title('GW Waveform Generator ∿')
 
 st.markdown(""" ------------------------------------------------------------------------- """)
 
-st.markdown(""" Check left panel to change input parameters """)
+st.subheader(""" Check left panel to change input parameters """)
 
 st.markdown(""" ------------------------------------------------------------------------- """)
 
@@ -18,7 +29,6 @@ st.markdown("""∿ The implementation of this model can be studied in detail ove
 st.markdown("""∿ You can learn more about PyCBC and Time Domain waveforms over here: http://pycbc.org/pycbc/latest/html/waveform.html""")
 
 
-st.sidebar.header("Enter input parameters below")
 
 distancev = []
 
