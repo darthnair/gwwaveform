@@ -65,4 +65,4 @@ st.pyplot()
 
 
 
-st.markdown("""Kindly request changes or additions to the web app through the repository found here: https://github.com/darthnair/gwwaveform)
+st.markdown("""Kindly request changes or additions to the web app through the repository found here: https://github.com/darthnair/gwwaveform""")
